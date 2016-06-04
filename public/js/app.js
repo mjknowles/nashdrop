@@ -1,4 +1,4 @@
-var app = angular.module('nashdrop', ['ui.router', 'ui-leaflet', 'ngMaterial'])
+var app = angular.module('nashdrop', ['nemLogging', 'ui.router', 'ui-leaflet', 'ngMaterial'])
 
   .config(function($stateProvider, $urlRouterProvider){
     $stateProvider
