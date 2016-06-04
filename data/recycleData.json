@@ -1,0 +1,1137 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "j7nq-7ct5",
+      "name" : "Public Works Recycling Center and Drop Off Sites - Official",
+      "attribution" : "Metro Public Works",
+      "attributionLink" : "http://www.nashville.gov/Public-Works/Neighborhood-Services.aspx",
+      "averageRating" : 0,
+      "category" : "Recycling/Conservation",
+      "createdAt" : 1398317794,
+      "description" : "Nashville Area Waste/Recycling Convenience Centers/Drop Off sites, location, hours of operation and materials accepted.\r\n\r\nResidential Trash, Furniture & Appliances, and Household Hazardous Waste are accepted in some locations, but please contact a facility or visit the website for details and daily or monthly limits.",
+      "displayType" : "table",
+      "downloadCount" : 84,
+      "indexUpdatedAt" : 1464966415,
+      "licenseId" : "PUBLIC_DOMAIN",
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 16891648,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1453410546,
+      "publicationGroup" : 1556109,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1453410466,
+      "rowsUpdatedBy" : "6z6e-pe5v",
+      "tableId" : 7287607,
+      "totalTimesRated" : 0,
+      "viewCount" : 1141,
+      "viewLastModified" : 1464962981,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : 238874345,
+        "name" : "Facility Name",
+        "dataTypeName" : "text",
+        "fieldName" : "facility_name",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19343446,
+        "width" : 256,
+        "cachedContents" : {
+          "non_null" : 17,
+          "smallest" : "Anderson Lane Recycling Convenience Center",
+          "null" : 0,
+          "largest" : "Whites Creek High School",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Anderson Lane Recycling Convenience Center"
+          }, {
+            "count" : 19,
+            "item" : "East Recycling Convenience Center"
+          }, {
+            "count" : 18,
+            "item" : "Ezell Pike Recycling Convenience Center"
+          }, {
+            "count" : 17,
+            "item" : "Omohundro Recycling Convenience Center"
+          }, {
+            "count" : 16,
+            "item" : "Bordeaux Mulch & Wood Recycling Convenience Center"
+          }, {
+            "count" : 15,
+            "item" : "Bellevue Metro Transit Authority's Park & Ride"
+          }, {
+            "count" : 14,
+            "item" : "Cane Ridge High School"
+          }, {
+            "count" : 13,
+            "item" : "Granbery Elementary School"
+          }, {
+            "count" : 12,
+            "item" : "Hermitage Hobby Lobby"
+          }, {
+            "count" : 11,
+            "item" : "Hillsboro High School"
+          }, {
+            "count" : 10,
+            "item" : "Joelton Middle School "
+          }, {
+            "count" : 9,
+            "item" : "Lakewood City Hall"
+          }, {
+            "count" : 8,
+            "item" : "McGavock High School "
+          }, {
+            "count" : 7,
+            "item" : "Old Ben West Library Building Recycling Drop-off Point"
+          }, {
+            "count" : 6,
+            "item" : "Tennessee State University"
+          }, {
+            "count" : 5,
+            "item" : "Waste Management Recycling"
+          }, {
+            "count" : 4,
+            "item" : "Whites Creek High School"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 238874346,
+        "name" : "Address",
+        "dataTypeName" : "text",
+        "fieldName" : "address",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19343447,
+        "width" : 184,
+        "cachedContents" : {
+          "non_null" : 17,
+          "smallest" : "1019 Omohundro Place (entrance on Freightliner Drive)",
+          "null" : 0,
+          "largest" : "Polk Avenue & Union Street",
+          "top" : [ {
+            "count" : 20,
+            "item" : "939A Anderson Lane"
+          }, {
+            "count" : 19,
+            "item" : "943A Doctor Richard G. Adams Drive"
+          }, {
+            "count" : 18,
+            "item" : "3254 Ezell Pike"
+          }, {
+            "count" : 17,
+            "item" : "1019 Omohundro Place (entrance on Freightliner Drive)"
+          }, {
+            "count" : 16,
+            "item" : "1400 County Hospital Road"
+          }, {
+            "count" : 15,
+            "item" : "Coley Davis Road and Hwy 70 S"
+          }, {
+            "count" : 14,
+            "item" : "12848 Old Hickory Blvd"
+          }, {
+            "count" : 13,
+            "item" : "5501 Hill Road"
+          }, {
+            "count" : 12,
+            "item" : "4101 Lebanon Road"
+          }, {
+            "count" : 11,
+            "item" : "3812 Hillsboro Pike"
+          }, {
+            "count" : 10,
+            "item" : "3500 Old Clarksville Highway"
+          }, {
+            "count" : 9,
+            "item" : "3401 Old Hickory Blvd"
+          }, {
+            "count" : 8,
+            "item" : "3150 McGavock Pike"
+          }, {
+            "count" : 7,
+            "item" : "Polk Avenue & Union Street"
+          }, {
+            "count" : 6,
+            "item" : "38th Ave N and Albion Street "
+          }, {
+            "count" : 5,
+            "item" : "630 Myatt Drive"
+          }, {
+            "count" : 4,
+            "item" : "7277 Old Hickory Blvd"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 238874347,
+        "name" : "City",
+        "dataTypeName" : "text",
+        "fieldName" : "city",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19343448,
+        "width" : 73,
+        "cachedContents" : {
+          "non_null" : 17,
+          "smallest" : "Antioch",
+          "null" : 0,
+          "largest" : "Old Hickory",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Madison"
+          }, {
+            "count" : 19,
+            "item" : "Nashville"
+          }, {
+            "count" : 18,
+            "item" : "Antioch"
+          }, {
+            "count" : 17,
+            "item" : "Brentwood"
+          }, {
+            "count" : 16,
+            "item" : "Hermitage"
+          }, {
+            "count" : 15,
+            "item" : "Joelton"
+          }, {
+            "count" : 14,
+            "item" : "Old Hickory"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 238874348,
+        "name" : "St",
+        "dataTypeName" : "text",
+        "fieldName" : "st",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19343449,
+        "width" : 50,
+        "cachedContents" : {
+          "non_null" : 17,
+          "smallest" : "TN",
+          "null" : 0,
+          "largest" : "TN",
+          "top" : [ {
+            "count" : 20,
+            "item" : "TN"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 238874349,
+        "name" : "Zip",
+        "dataTypeName" : "text",
+        "fieldName" : "zip",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19343450,
+        "width" : 50,
+        "cachedContents" : {
+          "non_null" : 17,
+          "smallest" : "37013",
+          "null" : 0,
+          "largest" : "37221",
+          "top" : [ {
+            "count" : 20,
+            "item" : "37115"
+          }, {
+            "count" : 19,
+            "item" : "37207"
+          }, {
+            "count" : 18,
+            "item" : "37211"
+          }, {
+            "count" : 17,
+            "item" : "37210"
+          }, {
+            "count" : 16,
+            "item" : "37218"
+          }, {
+            "count" : 15,
+            "item" : "37221"
+          }, {
+            "count" : 14,
+            "item" : "37013"
+          }, {
+            "count" : 13,
+            "item" : "37027"
+          }, {
+            "count" : 12,
+            "item" : "37076"
+          }, {
+            "count" : 11,
+            "item" : "37215"
+          }, {
+            "count" : 10,
+            "item" : "37080"
+          }, {
+            "count" : 9,
+            "item" : "37138"
+          }, {
+            "count" : 8,
+            "item" : "37214"
+          }, {
+            "count" : 7,
+            "item" : "37219"
+          }, {
+            "count" : 6,
+            "item" : "37209"
+          }, {
+            "count" : 5,
+            "item" : "37189"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "align" : "right",
+          "noCommas" : "false"
+        }
+      }, {
+        "id" : 238874350,
+        "name" : "Phone",
+        "dataTypeName" : "text",
+        "fieldName" : "phone",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19343451,
+        "width" : 132,
+        "cachedContents" : {
+          "non_null" : 17,
+          "smallest" : "615-860-2588",
+          "null" : 0,
+          "largest" : "N/A",
+          "top" : [ {
+            "count" : 20,
+            "item" : "615-860-2588"
+          }, {
+            "count" : 19,
+            "item" : "615-862-8631"
+          }, {
+            "count" : 18,
+            "item" : "615-880-2530"
+          }, {
+            "count" : 17,
+            "item" : "615-880-1955"
+          }, {
+            "count" : 16,
+            "item" : "615-862-8640"
+          }, {
+            "count" : 15,
+            "item" : "N/A"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 238874351,
+        "name" : "Staffed?",
+        "dataTypeName" : "text",
+        "fieldName" : "staffed",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19343452,
+        "width" : 50,
+        "cachedContents" : {
+          "non_null" : 17,
+          "smallest" : "No",
+          "null" : 0,
+          "largest" : "Yes",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Yes"
+          }, {
+            "count" : 19,
+            "item" : "No"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 238874352,
+        "name" : "Monday",
+        "dataTypeName" : "text",
+        "fieldName" : "monday",
+        "position" : 8,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19343453,
+        "width" : 130,
+        "cachedContents" : {
+          "non_null" : 17,
+          "smallest" : "24/7",
+          "null" : 0,
+          "largest" : "Closed",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Closed"
+          }, {
+            "count" : 19,
+            "item" : "7:30 am - 5:00 pm"
+          }, {
+            "count" : 18,
+            "item" : "7:00 am - 4:00 pm"
+          }, {
+            "count" : 17,
+            "item" : "24/7"
+          }, {
+            "count" : 16,
+            "item" : "9:00 am - 5:00 pm"
+          }, {
+            "count" : 15,
+            "item" : "7:00 am - 7:00 pm"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 238874353,
+        "name" : "Tuesday",
+        "dataTypeName" : "text",
+        "fieldName" : "tuesday",
+        "position" : 9,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19343454,
+        "width" : 114,
+        "cachedContents" : {
+          "non_null" : 17,
+          "smallest" : "24/7",
+          "null" : 0,
+          "largest" : "Closed",
+          "top" : [ {
+            "count" : 20,
+            "item" : "8:30 am - 5:00 pm"
+          }, {
+            "count" : 19,
+            "item" : "7:30 am - 5:00 pm"
+          }, {
+            "count" : 18,
+            "item" : "8:00 am - 4:30 pm"
+          }, {
+            "count" : 17,
+            "item" : "7:00 am - 4:00 pm"
+          }, {
+            "count" : 16,
+            "item" : "24/7"
+          }, {
+            "count" : 15,
+            "item" : "Closed"
+          }, {
+            "count" : 14,
+            "item" : "9:00 am - 5:00 pm"
+          }, {
+            "count" : 13,
+            "item" : "7:00 am - 7:00 pm"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 238874354,
+        "name" : "Wednesday",
+        "dataTypeName" : "text",
+        "fieldName" : "wednesday",
+        "position" : 10,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19343455,
+        "width" : 105,
+        "cachedContents" : {
+          "non_null" : 17,
+          "smallest" : "24/7",
+          "null" : 0,
+          "largest" : "Closed",
+          "top" : [ {
+            "count" : 20,
+            "item" : "8:30 am - 5:00 pm"
+          }, {
+            "count" : 19,
+            "item" : "7:30 am - 5:00 pm"
+          }, {
+            "count" : 18,
+            "item" : "8:00 am - 4:30 pm"
+          }, {
+            "count" : 17,
+            "item" : "7:00 am - 4:00 pm"
+          }, {
+            "count" : 16,
+            "item" : "24/7"
+          }, {
+            "count" : 15,
+            "item" : "Closed"
+          }, {
+            "count" : 14,
+            "item" : "9:00 am - 5:00 pm"
+          }, {
+            "count" : 13,
+            "item" : "7:00 am - 7:00 pm"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 238874355,
+        "name" : "Thursday",
+        "dataTypeName" : "text",
+        "fieldName" : "thursday",
+        "position" : 11,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19343456,
+        "width" : 106,
+        "cachedContents" : {
+          "non_null" : 17,
+          "smallest" : "24/7",
+          "null" : 0,
+          "largest" : "Closed",
+          "top" : [ {
+            "count" : 20,
+            "item" : "8:30 am - 5:00 pm"
+          }, {
+            "count" : 19,
+            "item" : "7:30 am - 5:00 pm"
+          }, {
+            "count" : 18,
+            "item" : "8:00 am - 4:30 pm"
+          }, {
+            "count" : 17,
+            "item" : "7:00 am - 4:00 pm"
+          }, {
+            "count" : 16,
+            "item" : "24/7"
+          }, {
+            "count" : 15,
+            "item" : "Closed"
+          }, {
+            "count" : 14,
+            "item" : "9:00 am - 5:00 pm"
+          }, {
+            "count" : 13,
+            "item" : "7:00 am - 7:00 pm"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 238874356,
+        "name" : "Friday",
+        "dataTypeName" : "text",
+        "fieldName" : "friday",
+        "position" : 12,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19343457,
+        "width" : 108,
+        "cachedContents" : {
+          "non_null" : 17,
+          "smallest" : "24/7",
+          "null" : 0,
+          "largest" : "Closed",
+          "top" : [ {
+            "count" : 20,
+            "item" : "8:30 am - 5:00 pm"
+          }, {
+            "count" : 19,
+            "item" : "7:30 am - 5:00 pm"
+          }, {
+            "count" : 18,
+            "item" : "8:00 am - 4:30 pm"
+          }, {
+            "count" : 17,
+            "item" : "7:00 am - 4:00 pm"
+          }, {
+            "count" : 16,
+            "item" : "24/7"
+          }, {
+            "count" : 15,
+            "item" : "Closed"
+          }, {
+            "count" : 14,
+            "item" : "9:00 am - 5:00 pm"
+          }, {
+            "count" : 13,
+            "item" : "7:00 am - 7:00 pm"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 238874357,
+        "name" : "Saturday",
+        "dataTypeName" : "text",
+        "fieldName" : "saturday",
+        "position" : 13,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19343458,
+        "width" : 104,
+        "cachedContents" : {
+          "non_null" : 17,
+          "smallest" : "24/7",
+          "null" : 0,
+          "largest" : "Closed",
+          "top" : [ {
+            "count" : 20,
+            "item" : "8:30 am - 5:00 pm"
+          }, {
+            "count" : 19,
+            "item" : "7:30 am - 5:00 pm"
+          }, {
+            "count" : 18,
+            "item" : "8:00 am - 4:30 pm"
+          }, {
+            "count" : 17,
+            "item" : "7:00 am - 4:00 pm"
+          }, {
+            "count" : 16,
+            "item" : "24/7"
+          }, {
+            "count" : 15,
+            "item" : "9:00 am - Noon"
+          }, {
+            "count" : 14,
+            "item" : "9:00 am - 5:00 pm"
+          }, {
+            "count" : 13,
+            "item" : "7:00 am - 7:00 pm"
+          }, {
+            "count" : 12,
+            "item" : "Closed"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 238874358,
+        "name" : "Sunday",
+        "dataTypeName" : "text",
+        "fieldName" : "sunday",
+        "position" : 14,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19343459,
+        "width" : 96,
+        "cachedContents" : {
+          "non_null" : 17,
+          "smallest" : "24/7",
+          "null" : 0,
+          "largest" : "Noon - 5:00 pm",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Closed"
+          }, {
+            "count" : 19,
+            "item" : "Noon - 4:00 pm"
+          }, {
+            "count" : 18,
+            "item" : "24/7"
+          }, {
+            "count" : 17,
+            "item" : "Noon - 5:00 pm"
+          }, {
+            "count" : 16,
+            "item" : "7:00 am - 7:00 pm"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 238874359,
+        "name" : "Holiday Closing",
+        "dataTypeName" : "text",
+        "fieldName" : "holiday_closing",
+        "position" : 15,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19343460,
+        "width" : 186,
+        "cachedContents" : {
+          "non_null" : 17,
+          "smallest" : "Closed on Metro Observed Holidays",
+          "null" : 0,
+          "largest" : "Open",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Closed on Metro Observed Holidays"
+          }, {
+            "count" : 19,
+            "item" : "Open"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 238874360,
+        "name" : "Residential Brush & Leaves",
+        "dataTypeName" : "text",
+        "fieldName" : "residential_brush_leaves",
+        "position" : 16,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19343461,
+        "width" : 143,
+        "cachedContents" : {
+          "non_null" : 17,
+          "smallest" : "N",
+          "null" : 0,
+          "largest" : "Y",
+          "top" : [ {
+            "count" : 20,
+            "item" : "N"
+          }, {
+            "count" : 19,
+            "item" : "Y"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 238874361,
+        "name" : "Residential Trash",
+        "dataTypeName" : "text",
+        "fieldName" : "residential_trash",
+        "position" : 17,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19343462,
+        "width" : 98,
+        "cachedContents" : {
+          "non_null" : 17,
+          "smallest" : "N",
+          "null" : 0,
+          "largest" : "Y**",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Y**"
+          }, {
+            "count" : 19,
+            "item" : "N"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 238874362,
+        "name" : "Residential Furniture & Appliances",
+        "dataTypeName" : "text",
+        "fieldName" : "residential_furniture_appliances",
+        "position" : 18,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19343463,
+        "width" : 189,
+        "cachedContents" : {
+          "non_null" : 17,
+          "smallest" : "N",
+          "null" : 0,
+          "largest" : "Y**",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Y**"
+          }, {
+            "count" : 19,
+            "item" : "N"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 238874363,
+        "name" : "Household Hazardous Waste",
+        "dataTypeName" : "text",
+        "fieldName" : "household_hazardous_waste",
+        "position" : 19,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19343464,
+        "width" : 164,
+        "cachedContents" : {
+          "non_null" : 17,
+          "smallest" : "N",
+          "null" : 0,
+          "largest" : "Y**",
+          "top" : [ {
+            "count" : 20,
+            "item" : "N"
+          }, {
+            "count" : 19,
+            "item" : "Y**"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 238874369,
+        "name" : "Aluminum, Metal & Tin Cans",
+        "dataTypeName" : "text",
+        "fieldName" : "aluminum_metal_tin_cans",
+        "position" : 20,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19343465,
+        "width" : 163,
+        "cachedContents" : {
+          "non_null" : 17,
+          "smallest" : "N",
+          "null" : 0,
+          "largest" : "Y",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Y"
+          }, {
+            "count" : 19,
+            "item" : "N"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 238874370,
+        "name" : "Plastics #1 - #7",
+        "dataTypeName" : "text",
+        "fieldName" : "plastics_1_7",
+        "position" : 21,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19343466,
+        "width" : 90,
+        "cachedContents" : {
+          "non_null" : 17,
+          "smallest" : "N",
+          "null" : 0,
+          "largest" : "Y",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Y"
+          }, {
+            "count" : 19,
+            "item" : "N"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 238874371,
+        "name" : "Cardboard, Newspaper & Mixed Paper",
+        "dataTypeName" : "text",
+        "fieldName" : "cardboard_newspaper_mixed_paper",
+        "position" : 22,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19343467,
+        "width" : 208,
+        "cachedContents" : {
+          "non_null" : 17,
+          "smallest" : "N",
+          "null" : 0,
+          "largest" : "Y",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Y"
+          }, {
+            "count" : 19,
+            "item" : "N"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 238874372,
+        "name" : "Glass Bottles (Clear, Green & Brown)",
+        "dataTypeName" : "text",
+        "fieldName" : "glass_bottles_clear_green_brown",
+        "position" : 23,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19343468,
+        "width" : 193,
+        "cachedContents" : {
+          "non_null" : 17,
+          "smallest" : "N",
+          "null" : 0,
+          "largest" : "Y",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Y"
+          }, {
+            "count" : 19,
+            "item" : "N"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 238874373,
+        "name" : "Website / URL / More information",
+        "dataTypeName" : "text",
+        "fieldName" : "website_url_more_information",
+        "position" : 24,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19343469,
+        "width" : 630,
+        "cachedContents" : {
+          "non_null" : 17,
+          "smallest" : "http://www.nashville.gov/Public-Works/Neighborhood-Services/Recycling/Recycling-Drop-off-Sites.aspx",
+          "null" : 0,
+          "largest" : "http://www.nashville.gov/Public-Works/Neighborhood-Services/Yard-Waste-Composting/Bordeaux-Mulching-Facility.aspx",
+          "top" : [ {
+            "count" : 20,
+            "item" : "http://www.nashville.gov/Public-Works/Neighborhood-Services/Recycling/Residential-Waste-and-Recycling-Facilities.aspx"
+          }, {
+            "count" : 19,
+            "item" : "http://www.nashville.gov/Public-Works/Neighborhood-Services/Yard-Waste-Composting/Bordeaux-Mulching-Facility.aspx"
+          }, {
+            "count" : 18,
+            "item" : "http://www.nashville.gov/Public-Works/Neighborhood-Services/Recycling/Recycling-Drop-off-Sites.aspx"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 238874374,
+        "name" : "Mapped Location",
+        "dataTypeName" : "location",
+        "fieldName" : "mapped_location",
+        "position" : 25,
+        "renderTypeName" : "location",
+        "tableColumnId" : 19343470,
+        "width" : 280,
+        "cachedContents" : {
+          "non_null" : 17,
+          "smallest" : {
+            "longitude" : "-86.739745",
+            "latitude" : "36.156079",
+            "human_address" : "{\"address\":\"1019 Omohundro Place (entrance on Freightliner Drive)\",\"city\":\"Nashville\",\"state\":\"TN\",\"zip\":\"37210\"}"
+          },
+          "null" : 0,
+          "largest" : {
+            "human_address" : "{\"address\":\"Polk Avenue &amp; Union Street\",\"city\":\"Nashville\",\"state\":\"TN\",\"zip\":\"37219\"}"
+          },
+          "top" : [ {
+            "count" : 20,
+            "item" : {
+              "longitude" : "-86.686116",
+              "latitude" : "36.272049",
+              "human_address" : "{\"address\":\"939A Anderson Lane\",\"city\":\"Madison\",\"state\":\"TN\",\"zip\":\"37115\"}"
+            }
+          }, {
+            "count" : 19,
+            "item" : {
+              "longitude" : "-86.747083",
+              "latitude" : "36.206724",
+              "human_address" : "{\"address\":\"943A Doctor Richard G. Adams Drive\",\"city\":\"Nashville\",\"state\":\"TN\",\"zip\":\"37207\"}"
+            }
+          }, {
+            "count" : 18,
+            "item" : {
+              "longitude" : "-86.688527",
+              "latitude" : "36.08672",
+              "human_address" : "{\"address\":\"3254 Ezell Pike\",\"city\":\"Nashville\",\"state\":\"TN\",\"zip\":\"37211\"}"
+            }
+          }, {
+            "count" : 17,
+            "item" : {
+              "longitude" : "-86.739745",
+              "latitude" : "36.156079",
+              "human_address" : "{\"address\":\"1019 Omohundro Place (entrance on Freightliner Drive)\",\"city\":\"Nashville\",\"state\":\"TN\",\"zip\":\"37210\"}"
+            }
+          }, {
+            "count" : 16,
+            "item" : {
+              "longitude" : "-86.850962",
+              "latitude" : "36.183318",
+              "human_address" : "{\"address\":\"1400 County Hospital Road\",\"city\":\"Nashville\",\"state\":\"TN\",\"zip\":\"37218\"}"
+            }
+          }, {
+            "count" : 15,
+            "item" : {
+              "human_address" : "{\"address\":\"Coley Davis Road and Hwy 70 S\",\"city\":\"Nashville\",\"state\":\"TN\",\"zip\":\"37221\"}"
+            }
+          }, {
+            "count" : 14,
+            "item" : {
+              "longitude" : "-86.615306",
+              "latitude" : "36.029188",
+              "human_address" : "{\"address\":\"12848 Old Hickory Blvd\",\"city\":\"Antioch\",\"state\":\"TN\",\"zip\":\"37013\"}"
+            }
+          }, {
+            "count" : 13,
+            "item" : {
+              "longitude" : "-86.752404",
+              "latitude" : "36.047628",
+              "human_address" : "{\"address\":\"5501 Hill Road\",\"city\":\"Brentwood\",\"state\":\"TN\",\"zip\":\"37027\"}"
+            }
+          }, {
+            "count" : 12,
+            "item" : {
+              "longitude" : "-86.620284",
+              "latitude" : "36.198354",
+              "human_address" : "{\"address\":\"4101 Lebanon Road\",\"city\":\"Hermitage\",\"state\":\"TN\",\"zip\":\"37076\"}"
+            }
+          }, {
+            "count" : 11,
+            "item" : {
+              "longitude" : "-86.813016",
+              "latitude" : "36.107234",
+              "human_address" : "{\"address\":\"3812 Hillsboro Pike\",\"city\":\"Nashville\",\"state\":\"TN\",\"zip\":\"37215\"}"
+            }
+          }, {
+            "count" : 10,
+            "item" : {
+              "longitude" : "-86.865768",
+              "latitude" : "36.313358",
+              "human_address" : "{\"address\":\"3500 Old Clarksville Highway\",\"city\":\"Joelton\",\"state\":\"TN\",\"zip\":\"37080\"}"
+            }
+          }, {
+            "count" : 9,
+            "item" : {
+              "longitude" : "-86.636164",
+              "latitude" : "36.24353",
+              "human_address" : "{\"address\":\"3401 Old Hickory Blvd\",\"city\":\"Old Hickory\",\"state\":\"TN\",\"zip\":\"37138\"}"
+            }
+          }, {
+            "count" : 8,
+            "item" : {
+              "longitude" : "-86.676474",
+              "latitude" : "36.18516",
+              "human_address" : "{\"address\":\"3150 McGavock Pike\",\"city\":\"Nashville\",\"state\":\"TN\",\"zip\":\"37214\"}"
+            }
+          }, {
+            "count" : 7,
+            "item" : {
+              "human_address" : "{\"address\":\"Polk Avenue &amp; Union Street\",\"city\":\"Nashville\",\"state\":\"TN\",\"zip\":\"37219\"}"
+            }
+          }, {
+            "count" : 6,
+            "item" : {
+              "human_address" : "{\"address\":\"38th Ave N and Albion Street&nbsp;\",\"city\":\"Nashville\",\"state\":\"TN\",\"zip\":\"37209\"}"
+            }
+          }, {
+            "count" : 5,
+            "item" : {
+              "longitude" : "-86.694028",
+              "latitude" : "36.291288",
+              "human_address" : "{\"address\":\"630 Myatt Drive\",\"city\":\"Madison\",\"state\":\"TN\",\"zip\":\"37115\"}"
+            }
+          }, {
+            "count" : 4,
+            "item" : {
+              "longitude" : "-86.817429",
+              "latitude" : "36.273491",
+              "human_address" : "{\"address\":\"7277 Old Hickory Blvd\",\"city\":\"Nashville\",\"state\":\"TN\",\"zip\":\"37189\"}"
+            }
+          } ]
+        },
+        "format" : { },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Public Domain"
+      },
+      "metadata" : {
+        "custom_fields" : {
+          "Does this data relate to one or more of the Mayor's Priority Areas?" : {
+            "Relates to Priority:" : "None"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rowLabel" : "Row",
+        "rdfSubject" : "0",
+        "attachments" : [ {
+          "assetId" : "m5i1F1HdEtjcdIHEkFU0zBa4SmDh3R5z8x3aESzrns0",
+          "blobId" : "",
+          "name" : "MPW RCC and  Drop Off Sites August 2014 Metadata.docx",
+          "filename" : "MPW RCC and  Drop Off Sites August 2014 Metadata.docx"
+        } ],
+        "rowIdentifier" : "0",
+        "rdfClass" : ""
+      },
+      "owner" : {
+        "id" : "6z6e-pe5v",
+        "displayName" : "Randall Williams",
+        "profileImageUrlLarge" : "/api/users/6z6e-pe5v/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/6z6e-pe5v/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/6z6e-pe5v/profile_images/TINY",
+        "roleName" : "administrator",
+        "screenName" : "Randall Williams",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards", "manage_provenance", "create_story", "edit_story_title_desc", "create_story_copy", "delete_story", "manage_story_collaborators", "manage_story_visibility", "manage_story_public_version", "edit_story", "view_unpublished_story", "view_story", "view_all_dataset_status_logs" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "6z6e-pe5v",
+        "displayName" : "Randall Williams",
+        "profileImageUrlLarge" : "/api/users/6z6e-pe5v/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/6z6e-pe5v/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/6z6e-pe5v/profile_images/TINY",
+        "roleName" : "administrator",
+        "screenName" : "Randall Williams",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards", "manage_provenance", "create_story", "edit_story_title_desc", "create_story_copy", "delete_story", "manage_story_collaborators", "manage_story_visibility", "manage_story_public_version", "edit_story", "view_unpublished_story", "view_story", "view_all_dataset_status_logs" ]
+      },
+      "tags" : [ "residential waste", "recycle", "materials accepted" ],
+      "flags" : [ "default" ]
+    }
+  },
+  "data" : [ [ 6, "C47169C3-B76F-4225-995A-777314C91F45", 6, 1453410346, "926011", 1453410346, "926011", null, "Bellevue Metro Transit Authority's Park & Ride", "Coley Davis Road and Hwy 70 S", "Nashville", "TN", "37221", "N/A", "No", "24/7", "24/7", "24/7", "24/7", "24/7", "24/7", "24/7", "Open", "N", "N", "N", "N", "Y", "Y", "Y", "Y", "http://www.nashville.gov/Public-Works/Neighborhood-Services/Recycling/Recycling-Drop-off-Sites.aspx", [ "{\"address\":\"Coley Davis Road and Hwy 70 S\",\"city\":\"Nashville\",\"state\":\"TN\",\"zip\":\"37221\"}", null, null, null, true ] ]
+, [ 14, "3D1FC905-BB08-4A79-84A3-CC0B41BFAF82", 14, 1453410346, "926011", 1453410346, "926011", null, "Old Ben West Library Building Recycling Drop-off Point", "Polk Avenue & Union Street", "Nashville", "TN", "37219", "N/A", "No", "24/7", "24/7", "24/7", "24/7", "24/7", "24/7", "24/7", "Open", "N", "N", "N", "N", "Y", "Y", "Y", "N", "http://www.nashville.gov/Public-Works/Neighborhood-Services/Recycling/Recycling-Drop-off-Sites.aspx", [ "{\"address\":\"Polk Avenue &amp; Union Street\",\"city\":\"Nashville\",\"state\":\"TN\",\"zip\":\"37219\"}", null, null, null, true ] ]
+, [ 15, "4A0E8B1B-5AF0-4CF4-B022-D0F83000344A", 15, 1453410346, "926011", 1453410346, "926011", null, "Tennessee State University", "38th Ave N and Albion Street ", "Nashville", "TN", "37209", "N/A", "No", "7:00 am - 7:00 pm", "7:00 am - 7:00 pm", "7:00 am - 7:00 pm", "7:00 am - 7:00 pm", "7:00 am - 7:00 pm", "7:00 am - 7:00 pm", "7:00 am - 7:00 pm", "Open", "N", "N", "N", "N", "Y", "Y", "Y", "Y", "http://www.nashville.gov/Public-Works/Neighborhood-Services/Recycling/Recycling-Drop-off-Sites.aspx", [ "{\"address\":\"38th Ave N and Albion Street&nbsp;\",\"city\":\"Nashville\",\"state\":\"TN\",\"zip\":\"37209\"}", null, null, null, true ] ]
+, [ 8, "0E9D68E6-EBDD-4F4C-92B1-81B20C993E83", 8, 1453410346, "926011", 1453410462, "926011", null, "Granbery Elementary School", "5501 Hill Road", "Brentwood", "TN", "37027", "N/A", "No", "Closed", "Closed", "Closed", "Closed", "Closed", "9:00 am - Noon", "Closed", "Open", "N", "N", "N", "N", "Y", "Y", "Y", "Y", "http://www.nashville.gov/Public-Works/Neighborhood-Services/Recycling/Recycling-Drop-off-Sites.aspx", [ "{\"address\":\"5501 Hill Road\",\"city\":\"Brentwood\",\"state\":\"TN\",\"zip\":\"37027\"}", "36.047628", "-86.752404", null, false ] ]
+, [ 12, "2202D89D-4EEC-4C20-A444-0446F85D9977", 12, 1453410346, "926011", 1453410462, "926011", null, "Lakewood City Hall", "3401 Old Hickory Blvd", "Old Hickory", "TN", "37138", "N/A", "No", "24/7", "24/7", "24/7", "24/7", "24/7", "24/7", "24/7", "Open", "N", "N", "N", "N", "Y", "Y", "Y", "Y", "http://www.nashville.gov/Public-Works/Neighborhood-Services/Recycling/Recycling-Drop-off-Sites.aspx", [ "{\"address\":\"3401 Old Hickory Blvd\",\"city\":\"Old Hickory\",\"state\":\"TN\",\"zip\":\"37138\"}", "36.24353", "-86.636164", null, false ] ]
+, [ 4, "2A19C1CB-AA93-4EF7-9C1F-97557ABF3132", 4, 1453410346, "926011", 1453410462, "926011", null, "Omohundro Recycling Convenience Center", "1019 Omohundro Place (entrance on Freightliner Drive)", "Nashville", "TN", "37210", "615-880-1955", "Yes", "Closed", "8:00 am - 4:30 pm", "8:00 am - 4:30 pm", "8:00 am - 4:30 pm", "8:00 am - 4:30 pm", "8:00 am - 4:30 pm", "Closed", "Closed on Metro Observed Holidays", "Y", "Y**", "Y**", "N", "Y", "Y", "Y", "Y", "http://www.nashville.gov/Public-Works/Neighborhood-Services/Recycling/Residential-Waste-and-Recycling-Facilities.aspx", [ "{\"address\":\"1019 Omohundro Place (entrance on Freightliner Drive)\",\"city\":\"Nashville\",\"state\":\"TN\",\"zip\":\"37210\"}", "36.156079", "-86.739745", null, false ] ]
+, [ 17, "2A6467CA-3D8B-4172-BF15-CDCC33FFB819", 17, 1453410346, "926011", 1453410462, "926011", null, "Whites Creek High School", "7277 Old Hickory Blvd", "Nashville", "TN", "37189", "N/A", "No", "24/7", "24/7", "24/7", "24/7", "24/7", "24/7", "24/7", "Open", "N", "N", "N", "N", "Y", "Y", "Y", "Y", "http://www.nashville.gov/Public-Works/Neighborhood-Services/Recycling/Recycling-Drop-off-Sites.aspx", [ "{\"address\":\"7277 Old Hickory Blvd\",\"city\":\"Nashville\",\"state\":\"TN\",\"zip\":\"37189\"}", "36.273491", "-86.817429", null, false ] ]
+, [ 11, "372FB32C-54DC-4A1B-9FC7-070EC10BF6E6", 11, 1453410346, "926011", 1453410462, "926011", null, "Joelton Middle School ", "3500 Old Clarksville Highway", "Joelton", "TN", "37080", "N/A", "No", "24/7", "24/7", "24/7", "24/7", "24/7", "24/7", "24/7", "Open", "N", "N", "N", "N", "Y", "Y", "Y", "Y", "http://www.nashville.gov/Public-Works/Neighborhood-Services/Recycling/Recycling-Drop-off-Sites.aspx", [ "{\"address\":\"3500 Old Clarksville Highway\",\"city\":\"Joelton\",\"state\":\"TN\",\"zip\":\"37080\"}", "36.313358", "-86.865768", null, false ] ]
+, [ 16, "38936E30-DD07-40D5-9688-2E07401D99B7", 16, 1453410346, "926011", 1453410462, "926011", null, "Waste Management Recycling", "630 Myatt Drive", "Madison", "TN", "37115", "N/A", "No", "7:00 am - 4:00 pm", "7:00 am - 4:00 pm", "7:00 am - 4:00 pm", "7:00 am - 4:00 pm", "7:00 am - 4:00 pm", "Closed", "Closed", "Open", "N", "N", "N", "N", "Y", "Y", "Y", "Y", "http://www.nashville.gov/Public-Works/Neighborhood-Services/Recycling/Recycling-Drop-off-Sites.aspx", [ "{\"address\":\"630 Myatt Drive\",\"city\":\"Madison\",\"state\":\"TN\",\"zip\":\"37115\"}", "36.291288", "-86.694028", null, false ] ]
+, [ 3, "3EC56B9C-7065-42DF-9D91-A8D758B5C1C2", 3, 1453410346, "926011", 1453410462, "926011", null, "Ezell Pike Recycling Convenience Center", "3254 Ezell Pike", "Nashville", "TN", "37211", "615-880-2530", "Yes", "7:30 am - 5:00 pm", "7:30 am - 5:00 pm", "7:30 am - 5:00 pm", "7:30 am - 5:00 pm", "7:30 am - 5:00 pm", "7:30 am - 5:00 pm", "Noon - 4:00 pm", "Closed on Metro Observed Holidays", "Y", "Y**", "Y**", "Y**", "Y", "Y", "Y", "Y", "http://www.nashville.gov/Public-Works/Neighborhood-Services/Recycling/Residential-Waste-and-Recycling-Facilities.aspx", [ "{\"address\":\"3254 Ezell Pike\",\"city\":\"Nashville\",\"state\":\"TN\",\"zip\":\"37211\"}", "36.08672", "-86.688527", null, false ] ]
+, [ 10, "5A3F95C4-4CFB-4B85-A086-C39B0ABFE32A", 10, 1453410346, "926011", 1453410462, "926011", null, "Hillsboro High School", "3812 Hillsboro Pike", "Nashville", "TN", "37215", "N/A", "No", "9:00 am - 5:00 pm", "9:00 am - 5:00 pm", "9:00 am - 5:00 pm", "9:00 am - 5:00 pm", "9:00 am - 5:00 pm", "9:00 am - 5:00 pm", "Noon - 5:00 pm", "Open", "N", "N", "N", "N", "Y", "Y", "Y", "Y", "http://www.nashville.gov/Public-Works/Neighborhood-Services/Recycling/Recycling-Drop-off-Sites.aspx", [ "{\"address\":\"3812 Hillsboro Pike\",\"city\":\"Nashville\",\"state\":\"TN\",\"zip\":\"37215\"}", "36.107234", "-86.813016", null, false ] ]
+, [ 1, "5D86FD71-2DC7-4024-A506-035B904A8BAB", 1, 1453410346, "926011", 1453410462, "926011", null, "Anderson Lane Recycling Convenience Center", "939A Anderson Lane", "Madison", "TN", "37115", "615-860-2588", "Yes", "Closed", "8:30 am - 5:00 pm", "8:30 am - 5:00 pm", "8:30 am - 5:00 pm", "8:30 am - 5:00 pm", "8:30 am - 5:00 pm", "Closed", "Closed on Metro Observed Holidays", "N", "Y**", "Y**", "N", "Y", "Y", "Y", "Y", "http://www.nashville.gov/Public-Works/Neighborhood-Services/Recycling/Residential-Waste-and-Recycling-Facilities.aspx", [ "{\"address\":\"939A Anderson Lane\",\"city\":\"Madison\",\"state\":\"TN\",\"zip\":\"37115\"}", "36.272049", "-86.686116", null, false ] ]
+, [ 9, "873E0466-1867-4D2F-AD00-7BB3CC3B4ACF", 9, 1453410346, "926011", 1453410462, "926011", null, "Hermitage Hobby Lobby", "4101 Lebanon Road", "Hermitage", "TN", "37076", "N/A", "No", "24/7", "24/7", "24/7", "24/7", "24/7", "24/7", "24/7", "Open", "N", "N", "N", "N", "Y", "Y", "Y", "Y", "http://www.nashville.gov/Public-Works/Neighborhood-Services/Recycling/Recycling-Drop-off-Sites.aspx", [ "{\"address\":\"4101 Lebanon Road\",\"city\":\"Hermitage\",\"state\":\"TN\",\"zip\":\"37076\"}", "36.198354", "-86.620284", null, false ] ]
+, [ 2, "C181FA86-F30F-4A36-8893-7DD81F9D7845", 2, 1453410346, "926011", 1453410462, "926011", null, "East Recycling Convenience Center", "943A Doctor Richard G. Adams Drive", "Nashville", "TN", "37207", "615-862-8631", "Yes", "7:30 am - 5:00 pm", "7:30 am - 5:00 pm", "7:30 am - 5:00 pm", "7:30 am - 5:00 pm", "7:30 am - 5:00 pm", "7:30 am - 5:00 pm", "Noon - 4:00 pm", "Closed on Metro Observed Holidays", "N", "Y**", "Y**", "Y**", "Y", "Y", "Y", "Y", "http://www.nashville.gov/Public-Works/Neighborhood-Services/Recycling/Residential-Waste-and-Recycling-Facilities.aspx", [ "{\"address\":\"943A Doctor Richard G. Adams Drive\",\"city\":\"Nashville\",\"state\":\"TN\",\"zip\":\"37207\"}", "36.206724", "-86.747083", null, false ] ]
+, [ 7, "C2BC3D9D-EB44-4BCA-90AA-56A0878ADB7C", 7, 1453410346, "926011", 1453410462, "926011", null, "Cane Ridge High School", "12848 Old Hickory Blvd", "Antioch", "TN", "37013", "N/A", "No", "24/7", "24/7", "24/7", "24/7", "24/7", "24/7", "24/7", "Open", "N", "N", "N", "N", "Y", "Y", "Y", "Y", "http://www.nashville.gov/Public-Works/Neighborhood-Services/Recycling/Recycling-Drop-off-Sites.aspx", [ "{\"address\":\"12848 Old Hickory Blvd\",\"city\":\"Antioch\",\"state\":\"TN\",\"zip\":\"37013\"}", "36.029188", "-86.615306", null, false ] ]
+, [ 13, "C79F93B2-4A9B-4967-BF94-D8BFDAE0F2D6", 13, 1453410346, "926011", 1453410462, "926011", null, "McGavock High School ", "3150 McGavock Pike", "Nashville", "TN", "37214", "N/A", "No", "24/7", "24/7", "24/7", "24/7", "24/7", "24/7", "24/7", "Open", "N", "N", "N", "N", "Y", "Y", "Y", "Y", "http://www.nashville.gov/Public-Works/Neighborhood-Services/Recycling/Recycling-Drop-off-Sites.aspx", [ "{\"address\":\"3150 McGavock Pike\",\"city\":\"Nashville\",\"state\":\"TN\",\"zip\":\"37214\"}", "36.18516", "-86.676474", null, false ] ]
+, [ 5, "F82D7C05-6759-4FED-8F01-6A5B38A46886", 5, 1453410346, "926011", 1453410462, "926011", null, "Bordeaux Mulch & Wood Recycling Convenience Center", "1400 County Hospital Road", "Nashville", "TN", "37218", "615-862-8640", "Yes", "7:00 am - 4:00 pm", "7:00 am - 4:00 pm", "7:00 am - 4:00 pm", "7:00 am - 4:00 pm", "7:00 am - 4:00 pm", "7:00 am - 4:00 pm", "Closed", "Closed on Metro Observed Holidays", "Y", "N", "N", "N", "N", "N", "N", "N", "http://www.nashville.gov/Public-Works/Neighborhood-Services/Yard-Waste-Composting/Bordeaux-Mulching-Facility.aspx", [ "{\"address\":\"1400 County Hospital Road\",\"city\":\"Nashville\",\"state\":\"TN\",\"zip\":\"37218\"}", "36.183318", "-86.850962", null, false ] ]
+ ]
+}
