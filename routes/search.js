@@ -5,15 +5,13 @@ var router = express.Router();
 var https = require('https');
 var fs = require('fs');
 var formatManager = require('../modules/formatManager');
+var stats = require('../modules/initializeStats');
+
 
 router.get('/:item', function(req, res) {
     let item = req.params.item;
-    // res.send(https.get('https://data.nashville.gov/resource/9d2e-48mm.json', function (res) {
-    //     console.log("res", res.);
-    //     res.on('data', function (chunk) {
-    //         console.log(chunk);
-    //     })
-    // }));
+    stats.logSearch(item);
+
     var data = JSON.parse(fs.readFileSync('data/recycleData.json', 'utf8')).data;
     data = data.map((center) => formatManager.formatRecycleData(center));
 
@@ -30,7 +28,7 @@ router.get('/:item', function(req, res) {
 
     console.log("data after map", data);
 
-    res.send(data.data);
+    res.send(data);
 })
 
 //returns all recycle centers
@@ -40,7 +38,7 @@ router.get('/', function(req, res) {
     var data = JSON.parse(fs.readFileSync('data/recycleData.json', 'utf8')).data;;
     data = data.map((center) => formatManager.formatRecycleData(center));
 
-    res.send(data.data);
+    res.send(data);
 })
 
 module.exports = router;
