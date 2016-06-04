@@ -1,18 +1,29 @@
-app.controller('resultsCtrl', [ '$scope', 'resultsService', 'leafletData', '$location', 'leafletMarkerEvents', '$mdSidenav', function($scope, leafletData, $location, leafletMarkerEvents, $mdSidenav) {
+app.controller('resultsCtrl', [ '$scope', 'leafletData', '$location', 'leafletMarkerEvents', '$mdSidenav', function($scope, leafletData, $location, leafletMarkerEvents, $mdSidenav) {
 
-// angular.element(document).ready(function () {
-//     console.log('page loading completed');
-// });
 
-    $scope.marks = [];
-    var searchMarks = resultsService.getSearchedItem();
-    console.log('searchMarks ', searchMarks);
+
+angular.element(document).ready(function () {
+    console.log('page loading completed');
+});
+
+    // var mainMarker = {
+    //   lat: 36.047628,
+    //   lng: -86.752404,
+    //   message: "Granbery Elementary School"
+    // };
 
     angular.extend($scope, {
-      nash: {
+      center: {
         lat: 36.16666,
         lng: -86.78333,
         zoom: 12,
+      },
+      markers: {
+        mrk1:{
+          lat: 36.047628,
+          lng: -86.752404,
+          message: "Granbery Elementary School",
+        }
       },
       defaults: {
         scrollWheelZoom: false
@@ -22,9 +33,9 @@ app.controller('resultsCtrl', [ '$scope', 'resultsService', 'leafletData', '$loc
           enable: ['click'],
           logic: 'emit'
         },
-        markers: {
-          enable: leafletMarkerEvents.getAvailableEvents(),
-        }
+        // markers: {
+        //   enable: leafletMarkerEvents.getAvailableEvents(),
+        // }
       },
       layers: {
         baselayers: {
@@ -44,61 +55,62 @@ app.controller('resultsCtrl', [ '$scope', 'resultsService', 'leafletData', '$loc
           }
         }
       },
-      userMarks: $scope.marks
+      // userMarks: $scope.marks
     });
 
-    $scope.addMarkers = function() {
-      console.log("add clicked")
-      angular.extend($scope, {
-        markers: {
-          m1: {
-            lat: 51.505,
-            lng: -0.09,
-            message: "I'm a static marker",
-          },
-          m2: {
-            lat: 51,
-            lng: 0,
-            focus: true,
-            message: "Hey, drag me if you want",
-            draggable: true
-          }
-        }
-      });
-      return leafletData;
-    };
 
-    $scope.addMarkers = function(resultsService){
-      console.log(resultsService);
-      // return firebaseMarks.$add({
-      //   lat: args.leafletEvent.latlng.lat,
-      //   lng: args.leafletEvent.latlng.lng,
-      //   uid: $scope.userAuth.uid,
-      //   dateAdded: Date.now(),
-      //   icon: local_icons.leaf_icon,
-      //   opacity: 0.6,
-      //   name: "",
-      //   description: "",
-      //   votes: 0,
-      //   images: "",
-      //   editable: true,
-      });
-    };
 
-    firebaseMarks.$loaded()
-      .then(function(){
-        angular.forEach(firebaseMarks, function(mark) {
-          if (mark.uid === $scope.userAuth.uid ){
-            mark.editable = true;
-            mark.voting = false;
-          } else {
-            mark.editable = false;
-            mark.voting = true;
-          }
-          $scope.marks.push(mark);
-          // console.log("these are the marks on the map, ", mark);
-          });
-      });
+    // $scope.addMarkers = function() {
+    //   console.log("add clicked")
+    //   angular.extend($scope, {
+    //     markers: {
+    //       m1: {
+    //         lat: 36.047628,
+    //         lng: -86.752404,
+    //         message: "Granbery Elementary School",
+    //       },
+    //       m2: {
+    //         lat: 36.24353,
+    //         lng: -86.636164,
+    //         message: "Lakewood City Hall",
+    //       }
+    //     }
+    //   });
+    //   // return leafletData;
+    // };
+
+    // $scope.addMarkers = function(resultsService){
+    //   console.log(resultsService);
+    //   // return firebaseMarks.$add({
+    //   //   lat: args.leafletEvent.latlng.lat,
+    //   //   lng: args.leafletEvent.latlng.lng,
+    //   //   uid: $scope.userAuth.uid,
+    //   //   dateAdded: Date.now(),
+    //   //   icon: local_icons.leaf_icon,
+    //   //   opacity: 0.6,
+    //   //   name: "",
+    //   //   description: "",
+    //   //   votes: 0,
+    //   //   images: "",
+    //   //   editable: true,
+
+    // };
+
+
+    // $scope..$loaded()
+    //   .then(function(){
+    //     angular.forEach(firebaseMarks, function(mark) {
+    //       if (mark.uid === $scope.userAuth.uid ){
+    //         mark.editable = true;
+    //         mark.voting = false;
+    //       } else {
+    //         mark.editable = false;
+    //         mark.voting = true;
+    //       }
+    //       $scope.marks.push(mark);
+    //       // console.log("these are the marks on the map, ", mark);
+    //       });
+    //   });
 
 // SIDENAV CODE
     $scope.toggleRight = buildToggler('right');

@@ -9,16 +9,15 @@ angular.module('nashdrop')
     };
 
     this.getSearchedItem = function(item){
-      var dfd = $q.defer();
-      return $http({
+      $http({
         method:"GET",
         url:"http://nashdrop.herokuapp.com/search/" + item
       }).then(function(res){
-        dfd.resolve(res);
+        console.log(item);
         }
       ).catch(function(err){
-        dfd.reject(err);
+        console.log(err);
       });
     };
-    return dfd.promise;
+
   });
