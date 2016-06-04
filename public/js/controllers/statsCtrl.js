@@ -2,13 +2,13 @@
 
   'use strict';
 
-  function homeCtrl () {
+  function statsCtrl () {
 
 
   }
 
   angular
     .module('nashdrop')
-    .controller('homeCtrl', homeCtrl);
+    .controller('statsCtrl', statsCtrl);
 
 })();
