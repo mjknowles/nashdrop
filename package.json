@@ -15,9 +15,7 @@
     "bower": "^1.7.9",
     "cors": "^2.7.1",
     "express": "^4.13.4",
-    "mongoose": "^4.4.19"
-  },
-  "devDependencies": {
+    "mongoose": "^4.4.19",
     "gulp": "^3.9.1",
     "gulp-ruby-sass": "^2.0.6",
     "body-parser": "~1.13.2",
