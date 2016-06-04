@@ -3,17 +3,15 @@
 var express = require('express');
 var router = express.Router();
 var https = require('https');
-var fs = require('fs');
-var formatManager = require('../modules/formatManager');
 var stats = require('../modules/initializeStats');
+var dropOffRepo = require('../modules/dropOffRepo');
 
 
 router.get('/:item', function(req, res) {
     let item = req.params.item;
     stats.logSearch(item);
 
-    var data = JSON.parse(fs.readFileSync('data/recycleData.json', 'utf8')).data;
-    data = data.map((center) => formatManager.formatRecycleData(center));
+    var data = dropOffRepo.getDropOffLocations();
 
     data = data.filter((center) => {
         let items = center.acceptedItems
@@ -33,11 +31,7 @@ router.get('/:item', function(req, res) {
 
 //returns all recycle centers
 router.get('/', function(req, res) {
-    let item = req.params.item;
-
-    var data = JSON.parse(fs.readFileSync('data/recycleData.json', 'utf8')).data;;
-    data = data.map((center) => formatManager.formatRecycleData(center));
-
+    var data = dropOffRepo.getDropOffLocations();
     res.send(data);
 })
 
