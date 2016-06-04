@@ -16,7 +16,7 @@ var app = angular.module('nashdrop', ['nemLogging', 'ui.router', 'ui-leaflet', '
 
       .state("results", {
         controller:"resultsCtrl",
-        url:"/results",
+        url:"/results/",
         templateUrl:"./js/partials/results.html"
       });
 

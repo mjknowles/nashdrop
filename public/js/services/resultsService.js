@@ -8,17 +8,11 @@ angular.module('nashdrop')
       });
     };
 
-    this.getSearchedItem = function(item){
-      var dfd = $q.defer();
+    this.getItem = function(item){
+      console.log(item);
       return $http({
         method:"GET",
-        url:"http://nashdrop.herokuapp.com/search/" + item
-      }).then(function(res){
-        dfd.resolve(res);
-        }
-      ).catch(function(err){
-        dfd.reject(err);
+        url:"http://nashdrop.herokuapp.com/search/"+item
       });
     };
-    return dfd.promise;
   });

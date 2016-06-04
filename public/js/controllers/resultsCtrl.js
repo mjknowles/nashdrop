@@ -82,7 +82,6 @@ app.controller('resultsCtrl', [ '$scope', 'resultsService', 'leafletData', '$loc
       //   votes: 0,
       //   images: "",
       //   editable: true,
-      });
     };
 
     firebaseMarks.$loaded()
@@ -117,4 +116,3 @@ app.controller('resultsCtrl', [ '$scope', 'resultsService', 'leafletData', '$loc
     }
 
 }]);
-
