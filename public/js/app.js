@@ -1,4 +1,4 @@
-angular.module('nashdrop', ['ui.router'])
+var app = angular.module('nashdrop', ['ui.router', 'ui-leaflet', 'ngMaterial'])
 
   .config(function($stateProvider, $urlRouterProvider){
     $stateProvider
@@ -15,7 +15,7 @@ angular.module('nashdrop', ['ui.router'])
       })
 
       .state("results", {
-        controller:"resultCtrl",
+        controller:"resultsCtrl",
         url:"/results",
         templateUrl:"./js/partials/results.html"
       });
