@@ -1,19 +1,26 @@
 "use strict";
 
-let testStats = [
-{searchTerm: 'cardboard', count: 7},
-{searchTerm: 'glass', count: 20},
-{searchTerm: 'batteries', count: 6},
-{searchTerm: 'clothes', count: 3},
-{searchTerm: 'books', count: 9},
-{searchTerm: 'metal', count: 1},
-{searchTerm: '', count: 1},
-{searchTerm: '', count: 1},
-{searchTerm: '', count: 1},
-{searchTerm: '', count: 1},
-{searchTerm: '', count: 1},
-]
+let testStats = {
+'searchTerm': 7,
+'cardboard': 7,
+'glass': 20,
+'batteries': 6,
+'clothes': 3,
+'books': 9,
+'metal': 1,
+'plastic bags': 31,
+'bottles': 9
+}
+
+function logSearch (search) {
+  if (testStats[search]) {
+    testStats[search] += 1;
+  } else {
+    testStats[search] = 1;
+  }
+}
 
 module.exports = {
-  stats: testStats
+  stats: testStats,
+  logSearch: logSearch
 }
