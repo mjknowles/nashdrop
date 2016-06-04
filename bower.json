@@ -1,0 +1,23 @@
+{
+  "name": "lib",
+  "homepage": "https://github.com/mjknowles/nashdrop",
+  "authors": [
+    "rousell <lauren.l.rouse@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-material": "~1.0.2",
+    "angularfire": "~1.1.3",
+    "ui-leaflet": "~1.0.0"
+  }
+}
