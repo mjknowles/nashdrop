@@ -8,7 +8,7 @@ angular.module('nashdrop')
       });
     };
 
-<<<<<<< HEAD
+
     this.getItem = function(item){
       console.log(item);
       return $http({
@@ -16,7 +16,7 @@ angular.module('nashdrop')
         url:"http://nashdrop.herokuapp.com/search/"+item
       });
     };
-=======
+
     this.getSearchedItem = function(item){
       $http({
         method:"GET",
@@ -28,6 +28,4 @@ angular.module('nashdrop')
         console.log(err);
       });
     };
-
->>>>>>> e86900224a91c2e50316b805b390e23a1e2ff9f4
   });
