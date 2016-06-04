@@ -1,1 +1,61 @@
-My Page
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NashDrop</title>
+    <meta name="Description" content="NashDrop lets users find drop off locations in Nashville for various items.">
+</head>
+<body>
+Presenting... NashDrop!
+
+NashDrop is an idea to help Nashville residents conveniently and responsibly dispose of or donate
+their old/unused/unwanted items. This application will be a "one stop shop" where users can enter 
+the items they want to drop off and view the locations here in Nashville where they can do so. Gone
+will be the days of Googling individual drop off items. Gone will be the days of "ctrl+f"-ing through the Nashville
+recycling website trying to find a recycling center that takes what you want to give back.
+
+Why You Should Join the Team
+
+1. Clearly defined and achievable use cases (we have a direction)
+2. Existing, easy to consume data sources (no wasting time data wrangling)
+3. Low complexity (we'll actually finish, beginner friendly)
+4. Not tech stack dependent (whatever works best for the team)
+5. Potential for cool stuff after MVP (no holds barred once we get our basic use cases)
+
+What does this have to do with #NDoCH?
+
+As for its applicability to Nashville's National Civic Day of Hacking theme... never fear! This application
+will utilize Nashville's open data portal to pull locations of three types of drop off centers:
+1. Recycling centers (glass!)
+2. Libraries (not just books but CDs and DVDs too!)
+3. Medicine disposal centers (keep that stuff out of the water supply!)
+
+I think that surfacing these locations meets the city government transparency requirement, but what about
+the "effective feedback mechanisms" we want to provide? Never fear because this application will log statistics
+for every search entered into the application. Theoretically, the city would be able to view terms that its citizens
+most often search and where they perform these searches. With this data, the city could better
+allocate resources to provide additional drop off support where needed and identify new drop off
+center opportunities that its citizens want.
+
+Data Sources:
+
+Sticking with the theme of the event, I've narrowed this project down to three Nashville data portal data sources (for now!):
+1. Recycling centers - https://data.nashville.gov/Recycling-Conservation/Public-Works-Recycling-Center-and-Drop-Off-Sites-O/j7nq-7ct5
+2. Libary locations - https://data.nashville.gov/Libraries/Library-Location-and-Facilities-Official/vn5u-d69i
+3. Pharmaceutical disposal locations - https://data.nashville.gov/Police/Pharmaceutical-Disposal-Locations-Official/6zy8-syg9
+
+Use Cases (Must Haves):
+
+1. As a user, I want to enter a search term to find matching drop off locations.
+2. As a user, I want to view a list of drop off centers matching my search term.
+3. As a user, I want to view a count of the terms searched on the application.
+
+Use Cases (Nice to Haves):
+
+1. As a user, I want to view the drop off centers matching my search on a map.
+2. As a user, I want to view drop off centers by category.
+3. As a user, I want to view the locations from which users searched for drop off sites.
+4. As a user, I want to view the list of drop off centers in order of proximity to my location.
+5. As a user, I want to view the count of searched terms by date.
+6. As a user, I want to track the items I drop off for tax purposes later (extreme edge use case!).
+</body>
+</html>
