@@ -16,5 +16,9 @@
     "cors": "^2.7.1",
     "express": "^4.13.4",
     "mongoose": "^4.4.19"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-ruby-sass": "^2.0.6"
   }
 }
