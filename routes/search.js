@@ -28,7 +28,7 @@ router.get('/:item', function(req, res) {
 
     console.log("data after map", data);
 
-    res.send(data.data);
+    res.send(data);
 })
 
 //returns all recycle centers
@@ -38,7 +38,7 @@ router.get('/', function(req, res) {
     var data = JSON.parse(fs.readFileSync('data/recycleData.json', 'utf8')).data;;
     data = data.map((center) => formatManager.formatRecycleData(center));
 
-    res.send(data.data);
+    res.send(data);
 })
 
 module.exports = router;
