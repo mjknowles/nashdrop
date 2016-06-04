@@ -3,59 +3,96 @@
 <head>
     <title>NashDrop</title>
     <meta name="Description" content="NashDrop lets users find drop off locations in Nashville for various items.">
+    
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </head>
 <body>
-Presenting... NashDrop!
-
-NashDrop is an idea to help Nashville residents conveniently and responsibly dispose of or donate
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">NashDrop</a>
+        </div>
+    </div>
+</nav>
+<div class="container">
+<br/>
+<br/>
+<br/>
+<div class="jumbotron">
+<h1>Presenting... NashDrop!</h1>
+<p><b>NashDrop</b> is an idea to help Nashville residents conveniently and responsibly dispose of or donate
 their old/unused/unwanted items. This application will be a "one stop shop" where users can enter 
-the items they want to drop off and view the locations here in Nashville where they can do so. Gone
+the items they want to drop off and view the locations here in Nashville where they can do so.</p><p>Gone
 will be the days of Googling individual drop off items. Gone will be the days of "ctrl+f"-ing through the Nashville
-recycling website trying to find a recycling center that takes what you want to give back.
+recycling website trying to find a recycling center that takes what you want to give back. Read on to find out more!</p>
+</div>
 
-Why You Should Join the Team
+<h2>Why you should join the team:</h2>
 
-1. Clearly defined and achievable use cases (we have a direction)
-2. Existing, easy to consume data sources (no wasting time data wrangling)
-3. Low complexity (we'll actually finish, beginner friendly)
-4. Not tech stack dependent (whatever works best for the team)
-5. Potential for cool stuff after MVP (no holds barred once we get our basic use cases)
+<ol>
+    <li>Clearly defined and achievable use cases (we have a direction)</li>
+    <li>Existing, easy to consume data sources (no wasting time data wrangling)</li>
+    <li>Low complexity (we'll actually finish, beginner friendly)</li>
+    <li>Not tech stack dependent (whatever works best for the team)</li>
+    <li>Potential for cool stuff after MVP (no holds barred once we get our basic use cases)</li>
+</ol>
+<hr/>
+<h2>What does this have to do with #NDoCH?</h2>
 
-What does this have to do with #NDoCH?
+<p>As for its applicability to Nashville's National Civic Day of Hacking theme... never fear! This application
+will utilize Nashville's open data portal to pull locations of three types of drop off centers:</p>
 
-As for its applicability to Nashville's National Civic Day of Hacking theme... never fear! This application
-will utilize Nashville's open data portal to pull locations of three types of drop off centers:
-1. Recycling centers (glass!)
-2. Libraries (not just books but CDs and DVDs too!)
-3. Medicine disposal centers (keep that stuff out of the water supply!)
+<ol>
+    <li>Recycling centers (glass!)</li>
+    <li>Libraries (not just books but CDs and DVDs too!)</li>
+    <li>Medicine disposal centers (keep that stuff out of the water supply!)</li>
+</ol>
 
-I think that surfacing these locations meets the city government transparency requirement, but what about
+<p>I think that surfacing these locations meets the city government transparency requirement, but what about
 the "effective feedback mechanisms" we want to provide? Never fear because this application will log statistics
 for every search entered into the application. Theoretically, the city would be able to view terms that its citizens
 most often search and where they perform these searches. With this data, the city could better
 allocate resources to provide additional drop off support where needed and identify new drop off
-center opportunities that its citizens want.
+center opportunities that its citizens want.</p>
 
-Data Sources:
+<hr/>
+<h2>Data sources:</h2>
 
-Sticking with the theme of the event, I've narrowed this project down to three Nashville data portal data sources (for now!):
-1. Recycling centers - https://data.nashville.gov/Recycling-Conservation/Public-Works-Recycling-Center-and-Drop-Off-Sites-O/j7nq-7ct5
-2. Libary locations - https://data.nashville.gov/Libraries/Library-Location-and-Facilities-Official/vn5u-d69i
-3. Pharmaceutical disposal locations - https://data.nashville.gov/Police/Pharmaceutical-Disposal-Locations-Official/6zy8-syg9
+<p>Sticking with the theme of the event, I've narrowed this project down to three Nashville data portal data sources (for now!):</p>
 
-Use Cases (Must Haves):
+<ol>
+    <li>Recycling centers - <a href="https://data.nashville.gov/Recycling-Conservation/Public-Works-Recycling-Center-and-Drop-Off-Sites-O/j7nq-7ct5">https://data.nashville.gov/Recycling-Conservation/Public-Works-Recycling-Center-and-Drop-Off-Sites-O/j7nq-7ct5</a></li>
+    <li>Libary locations - <a href="https://data.nashville.gov/Libraries/Library-Location-and-Facilities-Official/vn5u-d69i">https://data.nashville.gov/Libraries/Library-Location-and-Facilities-Official/vn5u-d69i</a></li>
+    <li>Pharmaceutical disposal locations - <a href="https://data.nashville.gov/Police/Pharmaceutical-Disposal-Locations-Official/6zy8-syg9">https://data.nashville.gov/Police/Pharmaceutical-Disposal-Locations-Official/6zy8-syg9</a></li>
+</ol>
 
-1. As a user, I want to enter a search term to find matching drop off locations.
-2. As a user, I want to view a list of drop off centers matching my search term.
-3. As a user, I want to view a count of the terms searched on the application.
+<hr/>
+<h2>Use Cases:</h2>
 
-Use Cases (Nice to Haves):
+<h3>Must haves:</h3>
 
-1. As a user, I want to view the drop off centers matching my search on a map.
-2. As a user, I want to view drop off centers by category.
-3. As a user, I want to view the locations from which users searched for drop off sites.
-4. As a user, I want to view the list of drop off centers in order of proximity to my location.
-5. As a user, I want to view the count of searched terms by date.
-6. As a user, I want to track the items I drop off for tax purposes later (extreme edge use case!).
+<ol>
+    <li>As a user, I want to enter a search term to find matching drop off locations.</li>
+    <li>As a user, I want to view a list of drop off centers matching my search term.</li>
+    <li>As a user, I want to view a count of the terms searched on the application.</li>
+</ol>
+<h3>Nice to haves:</h3>
+
+<ol>
+    <li>As a user, I want to view the drop off centers matching my search on a map.
+    <li>As a user, I want to view drop off centers by category.
+    <li>As a user, I want to view the locations from which users searched for drop off sites.
+    <li>As a user, I want to view the list of drop off centers in order of proximity to my location.
+    <li>As a user, I want to view the count of searched terms by date.
+    <li>As a user, I want to track the items I drop off for tax purposes later (extreme edge use case!).
+</ol>
+</div>
 </body>
 </html>
