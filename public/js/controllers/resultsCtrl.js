@@ -1,12 +1,4 @@
-app.controller('resultsCtrl', [ '$scope', 'leafletData', '$location', 'leafletMarkerEvents', '$mdSidenav', function($scope, leafletData, $location, leafletMarkerEvents, $mdSidenav, resultsService) {
-
-    resultsService.getItem()
-		.then(function(result) {
-			console.log(result);
-			console.log(result.data);
-			$scope.results = result.data.results;
-		});
-
+app.controller('resultsCtrl', [ '$scope', 'leafletData', '$location', 'leafletMarkerEvents', '$mdSidenav', resultsService, function($scope, leafletData, $location, leafletMarkerEvents, $mdSidenav, resultsService) {
 
 
 angular.element(document).ready(function () {
@@ -149,5 +141,13 @@ angular.element(document).ready(function () {
           });
       };
     }
+
+    resultsService.getItem()
+        .then(function(result) {
+            console.log(result);
+            console.log(result.data);
+            $scope.results = result.data.results;
+        });
+
 
 }]);
