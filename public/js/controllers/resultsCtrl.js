@@ -1,4 +1,4 @@
-app.controller('resultsCtrl', [ '$scope', 'leafletData', '$location', 'leafletMarkerEvents', '$mdSidenav', resultsService, function($scope, leafletData, $location, leafletMarkerEvents, $mdSidenav, resultsService) {
+app.controller('resultsCtrl', [ '$scope', 'leafletData', '$location', 'leafletMarkerEvents', '$mdSidenav', 'resultsService', function($scope, leafletData, $location, leafletMarkerEvents, $mdSidenav, resultsService) {
 
 
 angular.element(document).ready(function () {
