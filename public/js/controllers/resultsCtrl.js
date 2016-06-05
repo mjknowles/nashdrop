@@ -1,4 +1,11 @@
-app.controller('resultsCtrl', [ '$scope', 'leafletData', '$location', 'leafletMarkerEvents', '$mdSidenav', function($scope, leafletData, $location, leafletMarkerEvents, $mdSidenav) {
+app.controller('resultsCtrl', [ '$scope', 'leafletData', '$location', 'leafletMarkerEvents', '$mdSidenav', function($scope, leafletData, $location, leafletMarkerEvents, $mdSidenav, resultsService) {
+
+    resultsService.getItem()
+		.then(function(result) {
+			console.log(result);
+			console.log(result.data);
+			$scope.results = result.data.results;
+		});
 
 
 

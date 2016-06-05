@@ -6,7 +6,7 @@ angular.module('nashdrop')
       resultsService.getItem(item).then(function(result){
         console.log(result);
         $scope.results = result.data;
-        // $state.go('results');
+        $state.go('results');
       });
     };
   });

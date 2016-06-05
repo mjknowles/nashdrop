@@ -17,15 +17,15 @@ angular.module('nashdrop')
       });
     };
 
-    this.getSearchedItem = function(item){
-      $http({
-        method:"GET",
-        url:"http://nashdrop.herokuapp.com/search/" + item
-      }).then(function(res){
-        console.log(item);
-        }
-      ).catch(function(err){
-        console.log(err);
-      });
-    };
+  //   this.getSearchedItem = function(item){
+  //     $http({
+  //       method:"GET",
+  //       url:"http://nashdrop.herokuapp.com/search/" + item
+  //     }).then(function(res){
+  //       console.log(item);
+  //       }
+  //     ).catch(function(err){
+  //       console.log(err);
+  //     });
+  //   };
   });
