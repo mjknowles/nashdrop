@@ -45,18 +45,14 @@ angular.module('nashdrop').controller('resultsCtrl',
       }
     });
 
-    $scope.addMarkers = function(resultsService){
-      console.log(resultsService);
-    };
+    $scope.addMarkers = resultsService => console.log(resultsService);
 
     // SIDENAV CODE
     $scope.toggleRight = buildToggler('right');
-    $scope.isOpenRight = function(){
-      return $mdSidenav('right').isOpen();
-    };
+    $scope.isOpenRight = () => $mdSidenav('right').isOpen();
 
     function buildToggler(navID) {
-      return function() {
+      return () => {
         $mdSidenav(navID)
           .toggle()
           .then(function () {
