@@ -1,4 +1,4 @@
-var app = angular.module('nashdrop', ['nemLogging', 'ui.router', 'ui-leaflet', 'ngMaterial'])
+angular.module("nashdrop", ["nemLogging", "ui.router", "ui-leaflet", "ngMaterial"])
 
   .config(function($stateProvider, $urlRouterProvider){
     $stateProvider
@@ -20,6 +20,6 @@ var app = angular.module('nashdrop', ['nemLogging', 'ui.router', 'ui-leaflet', '
         templateUrl:"./js/partials/results.html"
       });
 
-      $urlRouterProvider
-        .otherwise("/");
+    $urlRouterProvider
+      .otherwise("/");
   });
