@@ -1,4 +1,4 @@
-<div class="resultsView" ng-controller="resultsCtrl">
+<div class="resultsView" ng-controller="homeCtrl">
   <h1>results</h1>
   <md-content layout="row">
     <leaflet flex event-broadcast='events' controls='controls' lf-center="center" url-hash-center="yes" markers="markers" layers="layers" height="550px"></leaflet>
@@ -9,9 +9,13 @@
     </md-toolbar>
     <md-content layout-padding>
       <md-card>
-        <md-card-content>
-          <p ng-repeat="result in results">
-            {{data}}
+        <md-card-content ng-repeat="result in results">
+          <h1> {{result.name}}</h1>
+          <p>
+            {{result.address}}
+          </p>
+          <p>
+            {{result.city}} {{result.state}} {{result.zip}}
           </p>
         </md-card-content>
       </md-card>

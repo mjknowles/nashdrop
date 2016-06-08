@@ -1,5 +1,6 @@
 angular.module('nashdrop')
-  .service('resultsService', function($q, $http){
+  .service('resultsService', function($http){
+    var result;
 
     this.getDropoffLocation = function(location){
       return $http({
@@ -16,6 +17,15 @@ angular.module('nashdrop')
         url:"http://nashdrop.herokuapp.com/search/"+item
       });
     };
+
+    this.passToResults = function(item){
+      result = item;
+    };
+
+    this.getResults = function(){
+      return result;
+    };
+
 
   //   this.getSearchedItem = function(item){
   //     $http({
