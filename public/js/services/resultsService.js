@@ -1,41 +1,10 @@
-angular.module('nashdrop')
-  .service('resultsService', function($http){
-    var result;
+angular.module("nashdrop")
+  .service("resultsService", function(SEARCH_URL, $http){
+    let result = null;
 
-    this.getDropoffLocation = function(location){
-      return $http({
-        method:"GET",
-        url:"http://nashdrop.herokuapp.com/search/"
-      });
-    };
-
-
-    this.getItem = function(item){
-      console.log(item);
-      return $http({
-        method:"GET",
-        url:"http://nashdrop.herokuapp.com/search/"+item
-      });
-    };
-
-    this.passToResults = function(item){
-      result = item;
-    };
-
-    this.getResults = function(){
-      return result;
-    };
-
-
-  //   this.getSearchedItem = function(item){
-  //     $http({
-  //       method:"GET",
-  //       url:"http://nashdrop.herokuapp.com/search/" + item
-  //     }).then(function(res){
-  //       console.log(item);
-  //       }
-  //     ).catch(function(err){
-  //       console.log(err);
-  //     });
-  //   };
+    this.getDropoffLocation = () => $http.get(SEARCH_URL);
+    this.getItem = item => $http.get(SEARCH_URL + item)
+      .then(response => result = response.data);
+    this.passToResults = item => result = item;
+    this.getResults = () => result;
   });
