@@ -1,39 +1,34 @@
 <!DOCTYPE html>
-<html ng-app="nashdrop">
+<html>
   <head>
     <meta charset="utf-8">
     <title>NashDrop</title>
-    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="bower_components/angular-material/angular-material.css">
     <link rel="stylesheet" href="bower_components/leaflet/dist/leaflet.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/main.css">
   </head>
   <body ng-app="nashdrop" ng-cloak>
-     <div class ="view-container">
-        <ui-view></ui-view>
-      </div>
+    <div class ="view-container">
+      <ui-view></ui-view>
+    </div>
 
+    <!-- angular -->
+    <script src="bower_components/angular/angular.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.js"></script>
+    <script src="bower_components/angular-simple-logger/dist/angular-simple-logger.min.js"></script>
+    <script src="bower_components/ui-leaflet/dist/ui-leaflet.min.js"></script>
+    <!-- libraries -->
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-aria/angular-aria.js"></script>
+    <script src="bower_components/angular-material/angular-material.js"></script>
+    <script src="bower_components/leaflet/dist/leaflet.js"></script>
 
-  <!-- scripts -->
-  <script src="bower_components/angular/angular.js"></script>
-  <!-- libraries -->
-  <script src="bower_components/angular-animate/angular-animate.js"></script>
-  <script src="bower_components/angular-aria/angular-aria.js"></script>
-  <script src="bower_components/angular-material/angular-material.js"></script>
-  <script src="bower_components/leaflet/dist/leaflet.js"></script>
-  <!-- angular -->
-  <script src="bower_components/angular-simple-logger/dist/angular-simple-logger.min.js"></script>
-  <script src="bower_components/ui-leaflet/dist/ui-leaflet.min.js"></script>
-
-
-      <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.js"></script> -->
-      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.js"></script>
-      <script type="text/javascript" src="js/app.js"></script>
-      <script type="text/javascript" src="js/constants.js"></script>
-      <script type="text/javascript" src="js/controllers/homeCtrl.js"></script>
-      <script type="text/javascript" src="js/controllers/statsCtrl.js"></script>
-      <script type="text/javascript" src="js/controllers/resultsCtrl.js"></script>
-      <script type="text/javascript" src="js/services/resultsService.js"></script>
-      <script type="text/javascript" src="js/services/statsService.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/constants.js"></script>
+    <script type="text/javascript" src="js/controllers/homeCtrl.js"></script>
+    <script type="text/javascript" src="js/controllers/statsCtrl.js"></script>
+    <script type="text/javascript" src="js/controllers/resultsCtrl.js"></script>
+    <script type="text/javascript" src="js/services/resultsService.js"></script>
+    <script type="text/javascript" src="js/services/statsService.js"></script>
   </body>
 </html>
