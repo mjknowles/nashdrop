@@ -10,11 +10,12 @@ angular.module('nashdrop').controller('resultsCtrl',
         zoom: 12
       },
       markers: {
-        mrk1:{
-          lat: 36.047628,
-          lng: -86.752404,
-          message: 'Granbery Elementary School'
-        }
+        // assuming this was here to test putting a pin in the map
+        //mrk1:{
+          //lat: 36.047628,
+          //lng: -86.752404,
+          //message: 'Granbery Elementary School'
+        //}
       },
       defaults: {
         scrollWheelZoom: false
@@ -45,7 +46,23 @@ angular.module('nashdrop').controller('resultsCtrl',
       }
     });
 
-    $scope.addMarkers = resultsService => console.log(resultsService);
+    $scope.results = resultsService.getResults();
+
+    $scope.results.forEach((res, _i) => {
+        // the lat and lng values are validated by the leaflet directive, so
+        // we ditch falsies and do a parseFloat so they pass muster
+        // TODO this means we don't have a complete set of map pins
+        // corresponding to the search result
+        if (!res.lat || !res.long) return;
+
+        $scope.markers[res.address] = {
+            lat: parseFloat(res.lat),
+            lng: parseFloat(res.long),
+            message: "<b>" + res.name  + "</b>" // TODO bleah html munging
+                + "<br />"
+                + res.address
+        }
+      });
 
     // SIDENAV CODE
     $scope.toggleRight = buildToggler('right');
@@ -60,6 +77,4 @@ angular.module('nashdrop').controller('resultsCtrl',
           });
       };
     }
-
-    $scope.results = resultsService.getResults();
   }]);
