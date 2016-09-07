@@ -20,8 +20,8 @@ function mapRecycleData (center) {
   var long = null;
   if(center.mapped_location)
   {
-    lat = center.mapped_location.coordinates[0];
-    long = center.mapped_location.coordinates[1];
+    lat = center.mapped_location.coordinates[1];
+    long = center.mapped_location.coordinates[0];
   }
 
   return {
