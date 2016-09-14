@@ -1,7 +1,6 @@
 "use strict";
 
 function mapRecycleData (center) {
-
   let accepted = (allAcceptable) => {
     let acceptedItems = [];
 
@@ -45,10 +44,52 @@ function mapRecycleData (center) {
   }
 }
 
+function mapPharmaData (dropoff) { 
+  var lat = null;
+  var long = null;
+  if(dropoff.location_1)
+  {
+    lat = dropoff.location_1.coordinates[1];
+    long = dropoff.location_1.coordinates[0];
+  }
+
+  return {
+    name: dropoff.drop_off_site,
+    address: dropoff.location_1_address,
+    city: '',
+    state: '',
+    zip: dropoff.location_1_zip,
+    acceptedItems: ['pharmaceuticals', 'drugs', 'medicines'],
+    lat: lat,
+    long: long
+  }
+}
+
+function mapLibraryData(dropoff) { 
+  var lat = null;
+  var long = null;
+  if(dropoff.location)
+  {
+    lat = dropoff.location.coordinates[1];
+    long = dropoff.location.coordinates[0];
+  }
+
+  return {
+    name: dropoff.library_name,
+    address: dropoff.location_address,
+    city: dropoff.location_city,
+    state: dropoff.location_state,
+    zip: dropoff.location_zip,
+    acceptedItems: ['books', 'dvds', 'cds'],
+    lat: lat,
+    long: long
+  }
+}
 
 let formatMapper = {
   mapRecycleData: mapRecycleData,
-
+  mapPharmaData: mapPharmaData,
+  mapLibraryData: mapLibraryData
 };
 
 
