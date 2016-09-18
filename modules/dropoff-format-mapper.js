@@ -15,8 +15,8 @@ function mapRecycleData (center) {
     return acceptedItems;
   }
   
-  var lat = null;
-  var long = null;
+  let lat = null;
+  let long = null;
   if(center.mapped_location)
   {
     lat = center.mapped_location.coordinates[1];
@@ -45,8 +45,8 @@ function mapRecycleData (center) {
 }
 
 function mapPharmaData (dropoff) { 
-  var lat = null;
-  var long = null;
+  let lat = null;
+  let long = null;
   if(dropoff.location_1)
   {
     lat = dropoff.location_1.coordinates[1];
@@ -66,8 +66,8 @@ function mapPharmaData (dropoff) {
 }
 
 function mapLibraryData(dropoff) { 
-  var lat = null;
-  var long = null;
+  let lat = null;
+  let long = null;
   if(dropoff.location)
   {
     lat = dropoff.location.coordinates[1];
@@ -86,11 +86,11 @@ function mapLibraryData(dropoff) {
   }
 }
 
-let formatMapper = {
+var dropoffFormatMapper = {
   mapRecycleData: mapRecycleData,
   mapPharmaData: mapPharmaData,
   mapLibraryData: mapLibraryData
 };
 
 
-module.exports = formatMapper;
+module.exports = dropoffFormatMapper;
