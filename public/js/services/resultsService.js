@@ -1,6 +1,6 @@
 angular.module("nashdrop")
   .service("resultsService", function(SEARCH_URL, $http){
-    let result = null;
+    $scope.result = null;
 
     this.getDropoffLocation = () => $http.get(SEARCH_URL);
 

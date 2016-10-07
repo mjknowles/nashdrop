@@ -8,11 +8,11 @@ angular.module("nashdrop", ["nemLogging", "ui.router", "ui-leaflet", "ngMaterial
         templateUrl:"./js/partials/homeView.html"
       })
 
-      .state("stats", {
+      /*.state("stats", {
         controller:"statsCtrl",
         url:"/stats",
         templateUrl:"./js/partials/stats.html"
-      })
+      })*/
 
       .state("results", {
         controller:"resultsCtrl",

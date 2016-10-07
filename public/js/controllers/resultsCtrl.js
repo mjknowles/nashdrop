@@ -1,6 +1,7 @@
 /* eslint-disable quotes */
 angular.module('nashdrop').controller('resultsCtrl',
   [ '$scope', 'leafletData', '$location', 'leafletMarkerEvents', '$mdSidenav', 'resultsService',
+  
   function($scope, leafletData, $location, leafletMarkerEvents, $mdSidenav, resultsService) {
 
     angular.extend($scope, {
@@ -45,6 +46,10 @@ angular.module('nashdrop').controller('resultsCtrl',
         }
       }
     });
+
+    $scope.searchSubmit = item => {
+      resultsService.getItem(item);
+    };
 
     $scope.results = resultsService.getResults();
     if($scope.results)
