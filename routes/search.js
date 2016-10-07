@@ -2,7 +2,7 @@
 
 var express = require('express');
 var router = express.Router();
-var stats = require('../modules/initialize-stats');
+var stats = require('../modules/stat-tracker');
 var dropoffFinder = require('../modules/dropoff-finder');
 
 // returns only the locations that accept the specified item

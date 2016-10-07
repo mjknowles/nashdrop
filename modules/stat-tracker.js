@@ -13,11 +13,12 @@ let testStats = {
 }
 
 function logSearch (search) {
-  if (testStats[search]) {
+  // commenting out until this is ready to go as a full feature
+  /*f (testStats[search]) {
     testStats[search] += 1;
   } else {
     testStats[search] = 1;
-  }
+  }*/
 }
 
 module.exports = {
