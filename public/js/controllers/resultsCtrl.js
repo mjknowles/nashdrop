@@ -47,22 +47,24 @@ angular.module('nashdrop').controller('resultsCtrl',
     });
 
     $scope.results = resultsService.getResults();
+    if($scope.results)
+    {
+      $scope.results.forEach((res, _i) => {
+          // the lat and lng values are validated by the leaflet directive, so
+          // we ditch falsies and do a parseFloat so they pass muster
+          // TODO this means we don't have a complete set of map pins
+          // corresponding to the search result
+          if (!res.lat || !res.long) return;
 
-    $scope.results.forEach((res, _i) => {
-        // the lat and lng values are validated by the leaflet directive, so
-        // we ditch falsies and do a parseFloat so they pass muster
-        // TODO this means we don't have a complete set of map pins
-        // corresponding to the search result
-        if (!res.lat || !res.long) return;
-
-        $scope.markers[res.address] = {
-            lat: parseFloat(res.lat),
-            lng: parseFloat(res.long),
-            message: "<b>" + res.name  + "</b>" // TODO bleah html munging
-                + "<br />"
-                + res.address
-        }
-      });
+          $scope.markers[res.address] = {
+              lat: parseFloat(res.lat),
+              lng: parseFloat(res.long),
+              message: "<b>" + res.name  + "</b>" // TODO bleah html munging
+                  + "<br />"
+                  + res.address
+          }
+        });
+      }
 
     // SIDENAV CODE
     $scope.toggleRight = buildToggler('right');
